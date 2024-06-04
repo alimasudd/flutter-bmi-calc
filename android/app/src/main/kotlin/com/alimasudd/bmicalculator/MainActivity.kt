@@ -1,4 +1,4 @@
-package com.alimasudd.bmicalculator
+package id.alimasudd.bmicalculator
 
 import io.flutter.embedding.android.FlutterActivity
 
