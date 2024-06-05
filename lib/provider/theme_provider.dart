@@ -20,6 +20,8 @@ class ThemeProvider extends ChangeNotifier {
 
   getThemePreferences() async {
     _isDark = await themePreferences.getTheme();
+
+    debugPrint("SP ${_isDark}");
     notifyListeners();
   }
 }
